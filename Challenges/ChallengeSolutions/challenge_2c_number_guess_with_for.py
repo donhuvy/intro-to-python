@@ -22,7 +22,7 @@ def run_game():
             print("Higher")
         else:
             print("Lower")
-        print('You have {} guesses left'.format(4-i))
+        print('You have {} guesses left'.format(4 - i))
 
         guess = int(input("guess a number between 1 and 20: "))
 
